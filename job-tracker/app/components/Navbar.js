@@ -3,9 +3,16 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div>
-      <h1 className='px-1 pt-2 mx-auto  '>I am a Navbar</h1>
-    </div>
+    <>
+    <nav className='h-15 bg-purple-700 flex justify-between px-2 items-center text-white font-bold'>
+      <span className='text-lg'>Job-Search</span>
+      <ul className='flex gap-3'>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/sign In">Sign In</a></li>
+      </ul>
+    </nav>
+    </>
   )
 }
 
