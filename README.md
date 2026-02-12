@@ -39,3 +39,16 @@ git add .
 git commit -m "your message"
 git push origin main
 ```
+
+## To revert Changes
+git log --oneline
+
+git revert commitID
+
+## To fetch only the Updated File
+
+---Fetch Latest Changes
+    git fetch origin    
+
+---To pull only the updated File Run this code after Fetching the latest update
+    git checkout origin/main -- path/to/file      
